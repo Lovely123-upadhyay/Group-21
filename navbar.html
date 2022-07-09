@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Navbar</title>
     <style>
-      #navbar {
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        margin: auto;
-        width: 99%;
-        height: auto;
-        background-color: #333a40;
-        color: white;
-      }
-      #navbar > div:nth-child(1) {
-        cursor: pointer;
-        width: 10%;
-        padding: 25px;
-      }
-      #right {
-        width: 35%;
-        display: flex;
-        justify-content: space-evenly;
-      }
-      #right > div {
-        cursor: pointer;
-        padding: 25px;
-      }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+            margin: auto;
+            width: 99%;
+            height: auto;
+            background-color: #333a40;
+            color: white;
+        }
+        
+        #navbar>div:nth-child(1) {
+            cursor: pointer;
+            width: 10%;
+            padding: 25px;
+        }
+        
+        #right {
+            width: 35%;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            align-items: center;
+        }
+        
+        #right>a {
+            color: white;
+            text-decoration: none;
+        }
     </style>
-  </head>
-  <body>
-    <div id="navbar">
-      <div href="#">Reebok</div>
+</head>
 
-      <div id="right">
-        <div href="#">Men</div>
-        <div href="#">Women</div>
-        <div href="#">Login</div>
-        <div href="#">Signup</div>
-      </div>
+<body>
+    <div id="navbar">
+        <div href="#">Reebok</div>
+
+        <div id="right">
+            <a href="Login.html">Login</a>
+            <a href="mens.html">Mens</a>
+            <a href="signup.html">Signup</a>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
 <script></script>
